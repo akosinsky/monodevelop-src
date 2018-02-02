@@ -28,7 +28,6 @@ monodoc-base \
 mono-mcs \
 mono-addins-utils \
 mono-complete \
-msbuild \
 python \
 referenceassemblies-pcl \
 software-properties-common \

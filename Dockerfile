@@ -12,7 +12,6 @@ autoconf \
 automake \
 build-essential \
 cmake \
-fsharp \
 gettext \
 git \
 git-core \

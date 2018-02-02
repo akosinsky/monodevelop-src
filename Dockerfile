@@ -27,7 +27,6 @@ lsb-base \
 monodoc-base \
 mono-mcs \
 mono-addins-utils \
-mono-complete \
 python \
 referenceassemblies-pcl \
 software-properties-common \

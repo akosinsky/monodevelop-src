@@ -38,6 +38,8 @@ wget \
 xterm \
 zlib1g-dev \
 && apt-get autoclean && rm -rf /var/lib/apt/lists/*  && \
+wget https://flathub.org/repo/flathub.gpg  && \
+flatpak --user remote-modify --gpg-import=flathub.gpg flathub && \
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo  && \
 flatpak --user install https://download.mono-project.com/repo/monodevelop.flatpakref
 
